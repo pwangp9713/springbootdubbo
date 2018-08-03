@@ -1,0 +1,5 @@
+﻿用springboot+dubbo+zookeeper实现springbootmybatis学生注册课程接口的远程调用
+
+provider 复制springbootmybatis项目 用@Service把接口注册到zookeeper
+
+consumer 用@References从zookeeper中拿接口并调用
